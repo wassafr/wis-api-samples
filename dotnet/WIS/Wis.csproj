@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Wassa.InnovationServices</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.12.0"/>
+    <PackageReference Include="MimeTypes" Version="2.2.1"/>
+  </ItemGroup>
+</Project>

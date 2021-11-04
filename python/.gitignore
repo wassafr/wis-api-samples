@@ -1,0 +1,6 @@
+__pycache__
+build
+.pytest_cache
+data/outputs
+
+*.sh
