@@ -23,8 +23,6 @@ function getResultFile($token, $fileName)
 
     $httpCode  = curl_getinfo($curl, CURLINFO_HTTP_CODE);
 
-    $response = json_decode($response);
-
     if ($httpCode != 200) {
         throw new Exception('request failed with status ' . $httpCode . ' ' . $response->error);
     }
